@@ -4,5 +4,5 @@ provider "aws" {
 
 output "add" {
 
-value = ${1+1}
+value = "${1+1}"
 }
